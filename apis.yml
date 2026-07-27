@@ -1,7 +1,24 @@
 aid: hnc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hnc.png
 name: HNC
-description: HNC is a company surfaced as a portfolio company of battery-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: HNC Software Inc. was a San Diego-based predictive-software company founded in 1986 that
+  built neural-network and decision-management systems for credit-card and workers-compensation fraud
+  detection, customer analytics, and profitability management across financial services, insurance,
+  telecommunications, and retail. Its flagship Falcon product screened a large share of the world's
+  payment-card transactions for fraud. HNC was an early Battery Ventures investment, went public in 1995,
+  and was acquired by Fair Isaac (FICO) in May 2002; it no longer operates as an independent entity and
+  publishes no current developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/hnc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,28 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: fico
+x-acquired-date: '2002-05'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fraud Detection
+- Predictive Analytics
+- Machine Learning
+- Decision Management
+- Financial Services
+- Insurance
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
